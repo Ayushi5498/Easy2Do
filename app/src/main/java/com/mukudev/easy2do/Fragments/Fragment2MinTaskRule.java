@@ -40,7 +40,7 @@ public class Fragment2MinTaskRule extends Fragment {
         timerTextView.setText("02:00");
 
         // Create a CountDownTimer for 2 minutes (120000 milliseconds)
-        countDownTimer = new CountDownTimer(10000, 1000) {
+        countDownTimer = new CountDownTimer(120000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 // Update the timer text every second
